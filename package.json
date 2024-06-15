@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev ./app",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "biome format --write ./app"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.1",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.1",
+    "@types/bun": "^1.1.4",
+    "typescript": "^5.4.5"
+  }
+}
