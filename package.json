@@ -11,7 +11,7 @@
     "lint": "biome check ./app",
     "lint:fix": "biome check --write ./app",
     "format": "biome format --write ./app",
-		"typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "nuxt": "^3.12.1",
