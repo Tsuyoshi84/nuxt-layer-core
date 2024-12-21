@@ -1,3 +1,6 @@
+import type { ArrayAtLeast } from '../types/ArrayAtLeast'
+import type { NumberRange } from '../types/NumberRange'
+
 /**
  * Asserts that an array has at least a certain number of elements.
  * @param value The array to check.
