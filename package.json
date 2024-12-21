@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-layer-core",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,12 +14,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "nuxt": "^3.12.1",
-    "vue": "^3.4.27"
+    "nuxt": "^3.14.1592",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/bun": "^1.1.4",
-    "typescript": "^5.4.5"
+    "@types/bun": "^1.1.14",
+    "typescript": "^5.7.2"
   }
 }
